@@ -1,2 +1,2 @@
 # shopv1-dg
-HTML refresher / restaurant 
+HTML CSS ADDITION REFRESHER / restaurant 
