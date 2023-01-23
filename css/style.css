@@ -161,4 +161,20 @@ input, button, textarea {
         position: absolute;
         left: 20px;
         top: -100px;
+        animation: showWelcome 0.5s ease-in-out 1s forwards;
+    }
+
+    @keyframes showWelcome {
+        0% {
+            top: -20px;
+            transform: skew(0deg, -5deg) scaleY(0);
+        }
+        80% {
+            top: 30px;
+            transform: skew(10deg, -5deg) scaleY(1.2);
+        }
+        100% {
+            top: 20px;
+            transform: skew(-10deg, -5deg) scaleY(1);
+        }
     }
