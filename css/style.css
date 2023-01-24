@@ -197,4 +197,5 @@ input, button, textarea {
 
     .main__article {
         scroll-margin-top: 6.5rem;
+        margin: var(--MARGIN);
     }
