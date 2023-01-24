@@ -204,5 +204,21 @@ input, button, textarea {
         margin-top: 1em;
     }
     .main__article:last-child {
-        margin-top: 1em;
+        min-height: calc(100vh - 20rem);
     }
+
+        /* || ABOUT */
+
+        .about__trivia {
+            margin: var(--MARGIN);
+        }
+
+        .about__trivia-answer {
+            margin-top: 1em;
+        }
+
+         /* || CONTACT */
+
+         .contact__h2 {
+            
+         }
