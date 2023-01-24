@@ -192,5 +192,10 @@ input, button, textarea {
     /* || MAIN */
 
     .main {
+        padding: var(--PADDING-TB) var(--PADDING-SIDE);
+    }
 
+    .main__article {
+        scroll-margin-top: 6.5rem;
+        margin: var(--MARGIN);
     }
